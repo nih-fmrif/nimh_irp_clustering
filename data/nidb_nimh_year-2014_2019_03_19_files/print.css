@@ -1,0 +1,228 @@
+/* link tags */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+.fullwidthWrapper a {
+	text-decoration: none;
+	}
+
+.fullwidthWrapper li span a:link   {
+		text-decoration: none;
+	}
+
+.fullwidthWrapper li span a:visited   {
+		text-decoration: none;
+	}
+	
+.fullwidthWrapper p a:link  {
+	text-decoration: none;
+}
+
+.fullwidthWrapper p a:visited  {
+	text-decoration: none;
+}
+
+.fullwidthWrapper li a:link  {
+	text-decoration: none;
+}
+
+.fullwidthWrapper li a:visited  {
+	text-decoration: none;
+}
+
+/* body tags */
+
+.fullwidthWrapperShadow {
+	display: none;
+	}
+
+.fullwidthWrapperShadowFluid {
+	display: none;
+
+}
+
+.fullwidthWrapperFluid {
+	border: 1px solid white;
+	font-size: 0.8em;
+
+}
+
+
+.footerWrapper {
+	display: none;
+}
+
+.footerWrapperFluid {
+	display: none;
+
+}
+
+.logoWrapper {
+	display: none;
+}
+
+.logoWrapperFluid {
+	display: none;
+}
+
+.breadcrumbWrapper  {
+	display: none;
+}
+
+.breadcrumbWrapperFluid  {
+	display: none;
+}
+
+
+.backWrapper {
+	display: none;
+}
+
+
+.backWrapperFluid {
+	display: none;
+
+}
+
+.headerWrapper  {
+	display: none;
+}
+
+.headerWrapperFluid  {
+	display: none;
+}
+
+.info {
+	padding: 1em 2em 1em 2em;
+}
+
+
+
+.search-stepone  {
+	display: none;
+}
+
+.search-steptwo  {
+	display: none;
+}
+
+.search-stepthree  {
+	display: none;
+}
+
+.noprint {
+	display: none;
+}
+
+.forprint {
+	margin: 1em 0px 1em 0px;
+}
+
+.print {
+	display: visible;
+}
+
+.printonly {
+	display: visible;
+	margin: 1em;
+	font-weight: bold;
+}
+
+.printonlynormal {
+	display: visible;
+	margin: 1em;
+	font-weight: normal;
+}
+
+
+.divider {
+	margin: 1em 0px 1em 0px;
+}
+
+.subdivider {
+	padding: 0px 0px 0px 10px; 
+	margin: 1em 0px 2em 0px;
+	font-weight: bold; 
+}
+
+.listing_number {
+	float: left;
+}
+
+/* Mini-CV related */
+
+.reportbutton {
+
+display: none;
+}
+
+.leftcolwidthWrapper  {
+	display: none;
+}
+
+.leftcolwidthWrapperFluid  {
+	display: none;
+}
+
+.pmcupdate  {
+	display: none;
+}
+
+.nopmcupdate {
+	display: none;
+}
+
+.yearfloat  {
+	display: none;
+}
+
+/* increasing size of float areas */
+
+.float65per {
+	float: left;
+	width: 90%;
+}
+
+.float70per {
+	float: left;
+	width: 90%;
+}
+
+.midcolwidth {
+	background:#FFFFFF;
+	border:0px solid #FFFFFF;
+	color: #000000;
+	float:left;
+	margin:0 0 0 15px;
+	padding:1px 0 7px 0;
+	/* overflow:hidden; */
+}
+
+
+.bracketcomment  {
+	display: none;
+}
+
+/* pmc print styles */
+
+.pmcheadercolumn  {
+
+    float: left;   
+    width: 5%; 
+    text-align: center;
+  
+}

@@ -1,0 +1,30 @@
+.abbrev {
+    float: left;
+    width: 5em;
+}
+
+.project {
+    float: left;
+    width: 8em;
+
+
+}
+
+.title {
+    float: left;
+    width: 45em;
+}
+
+.years  {
+    float: left;
+    width: 10em;
+
+}
+
+.number {
+    float: left;
+    width: 5em;
+    text-align: right;
+    padding: 0px 2em 0px 0px;
+
+}

@@ -1,0 +1,4694 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://intramural.nih.gov/search/allreports.taf?_function=search -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="“IE=Edge&quot;&quot;">
+<title>Search NIH Intramural Research Reports</title>
+
+<link rel="P3Pv1" href="https://intramural.nih.gov/w3c/p3p.xml">
+
+<link rel="icon" type="image/x-icon" href="https://intramural.nih.gov/NIDBstyles/favicons/sci_search.ico">
+<link rel="shortcut icon" href="https://intramural.nih.gov/NIDBstyles/favicons/sci_search.ico">
+
+<link rel="stylesheet" href="./nidb_nimh_year-2016_2019_03_19_files/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="./nidb_nimh_year-2016_2019_03_19_files/styles.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./nidb_nimh_year-2016_2019_03_19_files/styleChanges.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./nidb_nimh_year-2016_2019_03_19_files/media.css" type="text/css" media="screen">
+
+<link rel="stylesheet" href="./nidb_nimh_year-2016_2019_03_19_files/search.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./nidb_nimh_year-2016_2019_03_19_files/broadsearch.css" type="text/css" media="screen">
+
+
+
+
+
+<!-- ajax header -->
+<script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/prototype.js"></script>
+
+<script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/scriptaculous.js"></script><script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/builder.js"></script><script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/effects.js"></script><script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/dragdrop.js"></script><script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/controls.js"></script><script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/slider.js"></script>
+<script type="text/javascript" src="./nidb_nimh_year-2016_2019_03_19_files/showhide.js"></script>
+
+
+
+<script language="javascript">
+
+function runthis (targetDiv,dataSource,setForm) {	
+
+    var handlerFunc = function(t) {
+    $(targetDiv).innerHTML = t.responseText;
+    }
+
+Ajax.Responders.register({
+  onCreate: function() {
+  $(targetDiv+"loading").style.display = "block";
+ 
+  },
+  onComplete: function() {
+   $(targetDiv+"loading").style.display = "none";
+  }
+})
+
+var allNodes= Form.serialize(setForm);
+
+var myAjax = new Ajax.Request(dataSource, {method:'post',parameters:allNodes,onComplete:handlerFunc});
+}
+
+
+</script>
+
+<!-- ajax header ends -->
+
+
+
+
+
+
+</head>
+
+<body>
+<!-- begin Main Wrapper -->
+
+<!-- DO NOT REMOVE. Monitors use this text. String: Witango server running on intramural. -->
+
+<div id="mainWrapper">
+<!-- begin Top Banner -->
+	<div class="logoWrapper">
+
+
+
+    	<a href="https://intramural.nih.gov/search/index.taf" alt="NIH Intramural Database" title="NIH Intramural DataBase"><h1><span class="hide">NIH Intramural DataBase</span></h1></a>
+        <div class="utilityLinks">
+        
+
+        	<ul>
+            	<li class="last"><a href="https://intramural.nih.gov/helpfiles/comments.taf?ts=1552488807" target="_blank">Comments / Requests</a></li>
+            </ul>
+            <!-- add help for the support staff element -->
+
+        </div>
+    </div>
+    <!-- end Top Banner -->
+
+
+	<div class="contentWrapper">
+    	<!-- begin Breadcrumb -->
+        <div class="breadcrumbWrapper">
+
+
+
+<ul>
+
+
+<li><a href="https://intramural.nih.gov/search/allreports.taf?from=selfsearch&amp;ts=1552488807">Search again</a>&nbsp;&nbsp;&nbsp;</li>
+<li><a href="https://intramural.nih.gov/search/index.taf?ts=1552488807">All searches</a>&nbsp;&nbsp;&nbsp;</li>
+
+</ul>
+
+
+
+
+
+
+            <div class="clearfix"></div>
+    		</div><!-- end Breadcrumb -->
+    <!-- begin Header / H2 -->
+        <div class="headerWrapper">
+        	<h2>&nbsp;</h2>
+    		</div><!-- end Header / H2 -->
+    		
+
+
+
+ <!-- ends testing for hackers -->
+
+
+<!-- set searchyear variable -->
+
+
+
+
+
+<!-- clean up possible intervention on search year parameter -->
+
+
+
+
+
+
+
+
+<!-- include searchyear_piece -->
+
+
+
+<!-- allyear display setup -->
+
+
+
+
+
+
+
+
+
+<!-- set up intramurals -->
+
+
+
+
+
+
+ <!-- stop if using bogus search year info -->
+<div id="searchmethod">
+
+<!-- begin Full Width Box -->
+<div class="fullwidthWrapper">
+
+<h3 class="noprint"><b>List all Reports for an Institute or Center for a particular year</b></h3>
+
+	<form id="searchyearu" method="post" action="https://intramural.nih.gov/search/allreports.taf?_function=search">
+
+<div style="padding: 1em 0px 0px 0px;">
+<div class="search-stepone">
+			<div class="hide"><h4>Step 1</h4></div>
+			<p><strong>Select Year</strong><br>
+
+
+</p><div style="margin: 0.5em 0px 0px 2em;">
+			<select name="searchyear" size="1" style="font-size:1em;" onchange="window.location=&quot;allreports.taf?from=search.taf&amp;isajaxlink=Y&amp;searchyear=&quot; + this.value;">
+
+				
+				<option value="2018">2018</option>
+				
+				<option value="2017">2017</option>
+				
+				<option value="2016" selected="">2016</option>
+				
+				<option value="2015">2015</option>
+				
+				<option value="2014">2014</option>
+				
+				<option value="2013">2013</option>
+				
+				<option value="2012">2012</option>
+				
+				<option value="2011">2011</option>
+				
+				<option value="2010">2010</option>
+				
+				<option value="2009">2009</option>
+				
+				<option value="2008">2008</option>
+				
+				<option value="2007">2007</option>
+				
+				<option value="2006">2006</option>
+				
+				<option value="2005">2005</option>
+				
+				<option value="2004">2004</option>
+				
+				<option value="2003">2003</option>
+				
+				<option value="2002">2002</option>
+				
+				<option value="2001">2001</option>
+				
+				<option value="2000">2000</option>
+				
+				<option value="1999">1999</option>
+				
+
+			</select>
+			</div> <!-- div to fix line height for this popup -->
+			<p></p>
+</div> <!-- ends search-stepone -->
+
+<!-- IC select -->
+
+<div class="search-steptwo">
+			<div class="hide"><h4>Step 2</h4></div>
+			<p><strong>Select IC or Center</strong><br>
+
+<select name="ic" size="1" style="font-size: 1em;">&gt;
+<option value="noselect"> -- Select NIH Institute or Center [REQUIRED] -- </option>
+
+<option value="CC">CC - Clinical Center</option>
+
+<option value="CIT">CIT - Center for Information Technology</option>
+
+<option value="NCATS">NCATS - National Center for Advancing Translational Sciences</option>
+
+<option value="NCCIH">NCCIH - National Center for Complementary and Integrative Health</option>
+
+<option value="NCI">NCI - National Cancer Institute</option>
+
+<option value="NEI">NEI - National Eye Institute</option>
+
+<option value="NHGRI">NHGRI - National Human Genome Research Institute</option>
+
+<option value="NHLBI">NHLBI - National Heart, Lung and Blood Institute</option>
+
+<option value="NIA">NIA - National Institute on Aging</option>
+
+<option value="NIAAA">NIAAA - National Institute on Alcohol Abuse and Alcoholism</option>
+
+<option value="NIAID">NIAID - National Institute of Allergy and Infectious Diseases</option>
+
+<option value="NIAMS">NIAMS - National Institute of Arthritis and Musculosketal and Skin Diseases</option>
+
+<option value="NIBIB">NIBIB - National Institute of Biomedical Imaging and Bioengineering</option>
+
+<option value="NICHD">NICHD - National Institute of Child Health and Human Development</option>
+
+<option value="NIDA">NIDA - National Institute on Drug Abuse</option>
+
+<option value="NIDCD">NIDCD - National Institute on Deafness and Other Communication Disorders</option>
+
+<option value="NIDCR">NIDCR - National Institute of Dental and Craniofacial Research</option>
+
+<option value="NIDDK">NIDDK - National Institute of Diabetes and Digestive and Kidney Diseases</option>
+
+<option value="NIEHS">NIEHS - National Institute of Environmental Health Sciences</option>
+
+<option value="NIGMS">NIGMS - National Institute of General Medical Sciences</option>
+
+<option value="NIMH" selected="">NIMH - National Institute of Mental Health</option>
+
+<option value="NIMHD">NIMHD - National Institute on Minority Health and Health Disparities</option>
+
+<option value="NINDS">NINDS - National Institute of Neurological Disorders and Stroke</option>
+
+<option value="NINR">NINR - National Institute of Nursing Research</option>
+
+<option value="NLM">NLM - National Library of Medicine</option>
+
+
+</select></p>
+
+
+
+
+
+			</div> <!-- ends search-steptwo -->
+
+			<div style="float: right; margin: 2em 0px 0px 2em;">
+
+              <input type="submit" value="List" class="darkbutton">&nbsp;&nbsp;&nbsp;
+
+
+			</div> <!-- ends search-stepthree -->
+			</div> <!-- ends padding div -->
+</form>  <!-- ends form for text search -->
+
+
+
+<div class="clearfix"></div>
+</div>
+<div class="fullwidthWrapperShadow"></div>
+
+ <!-- ends #searchmethod div -->
+
+
+<!-- set up for page -->
+
+
+
+
+
+
+
+
+<!-- begin Full Width Box -->
+<div class="fullwidthWrapper">
+
+<h3>All Annual Reports for  NIMH for reporting year 2016</h3>
+<h4>&nbsp;&nbsp;&nbsp;92 Annual Reports</h4>
+<div style="padding: 1em;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Investigator-Initiated Project<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96228&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH000478 (2016) <span style="color: black;">Neural Mechanisms of Learning and Memory in Vision</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Mortimer  Mishkin, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The essential circuit for both item and associative stimulus recognition in any given sensory modality consists of the relevant cortical sensory processing stream(s), the medial temporal rhinal cortex, the ventromedial prefrontal cortex, and the medial dorsal nucleus of the thalamus. Context-free re ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96228&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96228</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">2.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96229&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH000889 (2016) <span style="color: black;">Dysregulation of Protein Synthesis in Fragile X Syndrome and Other Developmental Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Carolyn E Beebe, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The protocol involved in this project is 06-M-0214, NCT00362843.
+
+During the 2016 funding period, we addressed the following: 1) rCPS measured with the L-1-C-11leucine PET method in patients with FXS and healthy volunteers sedated with dexmedetomidine, 2) The effects of treatment with metformin on ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96229&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96229</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">3.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96230&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH001090 (2016) <span style="color: black;">Studies of Central Nervous System Functional Anatomy</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Miles  Herkenham, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Chronic psychosocial stress has been implicated in the etiology and progression of psychiatric disorders such as major depression and post-traumatic stress disorder (PTSD). In mice, we study the effects of psychosocial stress in a conflict paradigm that leads to behavioral alterations such as defici ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96230&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96230</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">4.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96231&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH001101 (2016) <span style="color: black;">Neural Mechanisms of Learning and Memory in Audition</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Mortimer  Mishkin, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Several diverse pieces of evidence suggest the possibility that auditory long-term memory may require the assistance of the oromotor system. The first set of findings comes from a series of studies carried out on the 3-generational KE family, half of whose members suffer from an inherited speech and ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96231&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96231</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">5.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96232&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002032 (2016) <span style="color: black;">Neural Coding of Visual Stimuli</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Barry J Richmond, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+In their classic works, Hubel and Wiesel studied the responses of Primary Visual Cortex (V1) neurons by showing bright or dark bars of light as visual stimuli. Movshon et al. used smoothed alternating bright and dark bars, sine wave gratings, as stimuli. With all such stimuli, the strength of the ne ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96232&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96232</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">6.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96233&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002035 (2016) <span style="color: black;">Functional Anatomy of Perceptual and Attentional Systems in the Primate Brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Leslie G Ungerleider, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+A typical scene contains many different objects that compete for neural representation due to the limited processing capacity of the visual system. At the neural level, competition among multiple objects is evidenced by the mutual suppression of their visually evoked responses. The competition among ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96233&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96233</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">7.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96234&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002039 (2016) <span style="color: black;">Pharmacology of Stimulus Memory and Habit Formation</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Mortimer  Mishkin, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The memory impairment associated with Alzheimers disease has long been associated with a loss in acetylcholine function and pathophysiology of the entorhinal/perirhinal, or rhinal cortex. In monkeys, lesions of this region as well as cholinergic deafferentation lead to severe memory deficits. We rec ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96234&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96234</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">8.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96235&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002386 (2016) <span style="color: black;">Chemical Coding of Neurotransmission</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Lee E Eiden, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The neuropeptide slow transmitter PACAP (pituitary adenylate cyclase activating polypeptide) is released at synapses that transduce stress responses to the brain, and mediate homeostatic and allostatic adjustments to stress by the organism. The catecholamine transmitter DA (dopamine) is released at  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96235&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96235</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">9.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96237&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002497 (2016) <span style="color: black;">Functional Organization of the Cerebral Cortex and Basal Ganglia</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Charles R Gerfen, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+    Advances in molecular genetic techniques are revealing new details of the neuroanatomical organization of brain circuitry and the functional role of these circuits in behavior.  Engineered viral vector constructs have been developed to label axonal projections of targeted neurons with unpreceden ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96237&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96237</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">10.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96238&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002498 (2016) <span style="color: black;">Roles of Oxytocin and Vasopressin in Brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Walter Scott Young, MD, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+--We continued our studies of the CA2 region of the hippocampus where the Oxtr and Avpr1b are located. The CA2 area is an important, although relatively unexplored, component of the hippocampus. We are studying the role of various receptors and in the CA2 by crossing floxed receptor lines with Oxtr  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96238&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96238</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">11.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96239&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002537 (2016) <span style="color: black;">Psychobiology and Treatment of Perimenopausal Mood Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Peter J Schmidt, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This report includes work arising from the following clinical protocols: NCT00030147, NCT00060736, NCT00001231, and NCT00001322. 
+The menopause transition is accompanied by a decrease in quality of life (QOL) measures for some women, and several randomized controlled trials of menopausal hormone th ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96239&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96239</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">12.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96240&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002581 (2016) <span style="color: black;">Childhood Onset Schizophrenia</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Judith L Rapoport, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+In comparison with adult onset schizophrenia patients, childhood onset patients have a greater number of pre-psychotic developmental disorders. One fifth of our COS cases have earlier forms of autism spectrum disorder, and one third have motor, speech, language, attention or impulse related developm ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96240&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96240</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">13.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96241&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002588 (2016) <span style="color: black;">The Neural Foundations for Memory  and Social Cognition In The Human Brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Alex  Martin, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This past year we have continued to focus on a major part of long-term memory, termed semantic memory, that is composed of general information, such as facts, ideas, and the meaning of objects and words. We are particularly interested in characterizing the neural substrate mediating object and word  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96241&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96241</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">14.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96243&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002619 (2016) <span style="color: black;">Neural Mechanisms of Motivation and Reward</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Barry J Richmond, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+When we choose one item from several alternatives, we consider their values from amount of reward and the amount of work needed to obtain them. To study the neuronal mechanism of such a decision-making, we developed a decision-making schedule task and recorded single unit activity from monkey orbito ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96243&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96243</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">15.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96244&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002652 (2016) <span style="color: black;">Imaging of Neuropsychiatric Disorders with Developmental and Genetic Mechanisms</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Karen F Berman, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The core aim of this project is to elucidate the nature, molecular foundations, underlying neurochemistry, and clinical correlates of neural systems-level dysfunction in schizophrenia. Toward that end, this year, the Clinical and Translational Neuroscience Branch has successfully executed comprehens ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96244&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96244</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">16.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96245&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002666 (2016) <span style="color: black;">Evaluation and Treatment of Obsessive Compulsive and Related Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Susan Elizabeth Swedo, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Obsessive-compulsive disorder (OCD) affects 1-2% of children and adolescents, causing significant distress and impairments from the unrelenting obsessional thoughts and compulsive behaviors. A unique subgroup of children with OCD has been identified on the basis of the acuity of their symptom onset. ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96245&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96245</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">17.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96246&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002685 (2016) <span style="color: black;">Peptide Receptor Systems</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Theodore B Usdin, MD, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Following discovery of the neuropeptide Tuberoinfundibular Peptide of 39 residues (TIP39) and its receptor, the Parathyroid Hormone Receptor 2 (PTH2R) the section focused on investigation of their biological roles. Neuroanatomical mapping showed synthesis of TIP39 in discrete neuronal groups in the  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96246&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96246</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">18.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96247&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002717 (2016) <span style="color: black;">Neuroimaging of Brain Circuits and Molecular Mechanisms in Normal Cognition</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Karen F Berman, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The Clinical and Translational Neuroscience Branch continues to make advances on several fronts in order to delineate the neurochemical, neurogenetic, and neuropsychological contributions to neural systems function and development relevant to mental illness. We have embarked on data collection for t ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96247&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96247</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">19.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96248&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002736 (2016) <span style="color: black;">Neural Substrates of Stimulus Recognition and Association Memory</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Elisabeth Adams Murray, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The prevailing model of amnesia holds that it depends on damage to a group of loosely related structures, collectively called the medial temporal lobe (MTL).  One influential theory holds that these areas work together as a single functional unit. According to this theory, the structures in the MTL  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96248&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96248</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">20.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96249&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002768 (2016) <span style="color: black;">Subcellular Compartmentalization of Neuronal Gene Expression</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Barry Bernard Kaplan, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Although once highly controversial, it is now well-accepted that there exists a diverse population of mRNAs and non-coding microRNAs in the distal structural/functional domains of the neuron to include the dendrite, axon, and presynaptic nerve terminal.  It has also become well-established that prot ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96249&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96249</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">21.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96250&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002778 (2016) <span style="color: black;">The Phenomenology and Neurophysiology of Juvenile Bipolar Disorder</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Ellen  Leibenluft, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Since the beginning of this project we have screened over 3000 subjects for this study. We have enrolled approximately 210 youth with bipolar disorder (BD), 310 subjects at risk for BD because they have a parent or sibling with the illness, and 115 adults with BD. This year, approximately 25 new sub ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96250&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96250</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">22.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96251&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002781 (2016) <span style="color: black;">fMRI Studies Of Pediatric Mood And Anxiety Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Daniel  Pine, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This work is conducted under protocol 01-M-0192, NCT00018057.
+We are using functional magnetic resonance imaging (fMRI) to examine neurocognitive correlates of pediatric anxiety disorders. Through ongoing collaborative studies, we also have increasingly compared findings in these syndromes with fin ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96251&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96251</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">23.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96252&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002782 (2016) <span style="color: black;">fMRI Studies Of Risk For Mood And Anxiety Disorders In Children</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Daniel  Pine, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This work is conducted under protocol 03-M-0186, NCT00060775.
+In this project, our group is examining biological aspects of risk for mood and anxiety disorders in children. Such work has major public impact. By identifying biological risks in children, information on novel treatments and preventati ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96252&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96252</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">24.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96253&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002783 (2016) <span style="color: black;">Functional MRI Method Development</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Peter A Bandettini, BS, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Protocol number 93-M-0170, NCT00001360
+
+The Section on Functional Imaging Methods (SFIM) has advanced functional MRI (fMRI) methodology through development of processing and acquisition methods and research on the underlying mechanisms behind the fMRI signal. Our recent work has focussed on assess ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96253&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96253</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">25.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96254&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002784 (2016) <span style="color: black;">Neurogenesis in the Adult Brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Heather A Cameron, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This project focuses on the interactions between experience and adult neurogenesis in the hippocampal region of the brain. We are interested in understanding how experiences, including learning and stressful experiences, regulate adult neurogenesis and how the new neurons alter responses in these si ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96254&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96254</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">26.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96255&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002786 (2016) <span style="color: black;">The Pathophysiology and Treatment of Children with Severe Irritability</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Ellen  Leibenluft, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Given concerns about the appropriate diagnosis for children with chronic, severe irritability, we defined the syndrome of severe mood dysregulation(SMD)to capture youth with extremely severe irritability and symptoms of hyperarousal. Our SMD phenotype formed the basis for the new pediatric diagnosis ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96255&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96255</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">27.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96256&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002793 (2016) <span style="color: black;">PET Radiopharmaceutical Sciences</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Victor W Pike, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The Molecular Imaging Branch (MIB) aims to exploit positron emission tomography (PET) as a radiotracer imaging technique for investigating neuropsychiatric disorders, such as autism, depression, addiction, schizophrenia, and Alzheimer's Disease (AD). Fundamental to this mission is the development of ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96256&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96256</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">28.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96258&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002795 (2016) <span style="color: black;">Translational Evaluation of PET Radiotracers</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Robert  Innis, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Examples of progress made during the prior year are summarized below.
+
+1)  Efflux transporters at the blood-brain barrier can decrease the entry of drugs and increase the removal of those molecules able to bypass the transporter. This issue is important because overexpression of efflux transporter ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96258&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96258</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">29.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96259&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002797 (2016) <span style="color: black;">Neuronal avalanches in the neocortex</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Dietmar  Plenz, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+1.	Critical brain dynamics are increasingly recognized to be important in cortex function.  We have expanded on our previous finding of fluctuation analysis as a marker for critical dynamics in neuronal systems.  Taking advantage of a data base in Freiburg, Germany on long-term recordings from human ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96259&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96259</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">30.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96227&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002798 (2016) <span style="color: black;">The Psychophysiology of Fear and Anxiety</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Christian  Grillon, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our approach is to elucidate normative psychological and neurobiological mechanisms of fear and anxiety in non-anxious individuals to identify which of these mechanisms are perturbed in anxious people (i.e., individuals with an anxiety disorder). Fear is an adaptive response to threat that enables o ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96227&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96227</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">31.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96226&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002800 (2016) <span style="color: black;">Identifying Neural Substrates of Behavior in Drosophila Melanogaster</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Benjamin H White, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Insect ecdysis sequences represent a simple, robust, and tractable model for studying the neuromodulatory mechanisms that govern behavior. Because initiation of an ecdysis sequence involves a profound shift in behavioral priorities, study of these sequences offers the opportunity to understand the n ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96226&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96226</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">32.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96225&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002803 (2016) <span style="color: black;">Magnetic Resonance Spectroscopy and Imaging Studies of Brain Functions</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Jun  Shen, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The goals of this research are to develop advanced MRS and imaging techniques and to apply them and other complementary methods to studying brain metabolism, neurotransmission and enzyme activity. MRS allows measurement of neurotransmission of glutamate and GABA in vivo, which play important roles i ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96225&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96225</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">33.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96223&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002804 (2016) <span style="color: black;">Family Study of Affective and Anxiety Spectrum Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Kathleen R Merikangas, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The major aims of this project have been accomplished through the establishment of a large communitybased family study of adult probands who participate in comprehensive clinical and biologic assessments followed by comparable evaluations of their adult and child relatives.  Recruitment of probands  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96223&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96223</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">34.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96224&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002810 (2016) <span style="color: black;">Functional Genomics of Bipolar Disorder</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Francis Joseph McMahon, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+NCT00001174
+
+In order to better interpret the impact of genetic variation on the brain biology of bipolar disorder, we are pursuing a variety of functional genomics studies, including brain imaging, microarray gene expression and RNA-seq in post-mortem brain tissue, and cellular phenotyping of neu ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96224&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96224</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">35.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96262&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002838 (2016) <span style="color: black;">Neurophysiology of Visual Perception</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+David A Leopold, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Human vision takes center stage in our complex cognitive interaction with the world. It may be seen as an accident of nature, and atypical among mammals, that human vision is so advanced. As large-brained, large-eyed primates, humans have come to rely strongly upon vision, as it carries with it many ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96262&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96262</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">36.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96263&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002843 (2016) <span style="color: black;">Identification of Genes Involved in Major Mood Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Francis Joseph McMahon, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+NCT00001174
+
+Starting in 1993, in collaboration with 10 academic centers across the US, we recruited a large sample of over 3,000 individuals with bipolar or other mood disorders. All participants did a diagnostic interview and provided a blood sample for DNA analysis. DNA and clinical data are av ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96263&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96263</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">37.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96264&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002844 (2016) <span style="color: black;">Genetic Determinants of Antidepressant Response</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Francis Joseph McMahon, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+NCT00088699
+
+Strong evidence from family and twin studies demonstrates that major depressive disorder (MDD) is heritable, yet there has been limited progress in identifying the actual genes involved. A separate, perhaps overlapping set of genes is expected to play a role in individual variation in ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96264&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96264</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">38.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96266&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002852 (2016) <span style="color: black;">Clinical Evaluation of PET Radiotracers</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Robert  Innis, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+1. We found that to measure translocator protein (TSPO) density in Alzheimers Disease (AD) and control subjects, a simple ratio method (standardized uptake value ratio, SUVR) can substitute for, and may even be more sensitive than, absolute quantitation. We also found that TSPO binding increases wit ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96266&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96266</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">39.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96267&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002857 (2016) <span style="color: black;">Glutamatergic Modulators for Rapid and Sustained Antidepressant Effect</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Carlos Alberto Zarate, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This Report involves work collected under protocol 04-M-0222 (NCT00088699).
+
+Our research suggests that the glutamatergic system is involved in the mechanism of action of rapid antidepressant response. In addition, this system may be a feasible target for developing treatments that have rapid and  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96267&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96267</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">40.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96268&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002860 (2016) <span style="color: black;">Emotional Dysfunction and Childhood Behavioral Disturbance</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Robert James Richard Blair, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This project has established a series of core neuro-biological findings regarding the basis of Conduct Disorder (CD). Over the past year, we have particularly concentrated on forms of function that are compromised in youth with CD and then examined what specific symptom sets are consequent on these  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96268&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96268</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">41.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96269&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002863 (2016) <span style="color: black;">Multimodal Neuroimaging of Gene-Brain Relationships in Williams Syndrome</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Karen F Berman, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The Clinical Translational Neuroscience Branch continues to work toward discovery of novel genetic contributions to brain structure, function and clinically relevant behavior and cognition, through execution of an ongoing series of multimodal neuroimaging studies of individuals with copy number vari ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96269&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96269</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">42.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96270&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002865 (2016) <span style="color: black;">Reproductive Endocrine Related Mood Disorders-Differential Sensitivity</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Peter J Schmidt, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This report includes work arising from the following clinical protocols: NCT00005011, NCT00056901, NCT00059228, NCT00082043, NCT00100360, NCT00001177, NCT00001259, and NCT00001481
+Overlapping co-morbidities between premenstrual dysphoric disorder (PMDD) and postpartum depression (PPD) have led to s ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96270&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96270</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">43.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96271&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002868 (2016) <span style="color: black;">Clinical and Behavioral Phenotyping of Autism and Related Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Susan Elizabeth Swedo, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Autism spectrum disorder is currently defined as a single disorder characterized by impairments in social communication and the presence of restricted interests and repetitive behaviors. However, there is mounting evidence that autism spectrum disorder represents a collection of overlapping neurodev ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96271&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96271</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">44.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96272&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002874 (2016) <span style="color: black;">The Neuroregulatory Effects of Gonadal Steroids in Humans</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Peter J Schmidt, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This report includes work arising from the following clinical protocols: NCT00026832, NCT00100360, NCT00001177, and NCT00001322.
+Behavioral observations from this and a related study in healthy young men, show that clinically significant depressive symptoms are rare accompaniments of induced hypogo ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96272&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96272</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">45.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96273&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002881 (2016) <span style="color: black;">Molecular Mechanisms of Synapse Development and Plasticity</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Zheng  Li, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+1. Synapses can change their efficacy through synaptic plasticity. Long-lasting forms of synaptic plasticity (such as long-term potentiation and long-term depression of synaptic transmission) are important cellular mechanisms underlying information storage in the brain and the establishment of prope ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96273&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96273</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">46.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96274&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002882 (2016) <span style="color: black;">Characterizing the Function of miRNAs in Neural Development, Synaptic Plasticity and Schizophrenia.</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Zheng  Li, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+1. Gene expression in the brain is dynamically regulated across the lifespan. The temporal dynamics of gene expression is conferred by transcriptional and posttranscriptional regulation. microRNAs (miRNAs) play important roles in the posttranscriptional regulation of gene expression during brain dev ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96274&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96274</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">47.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96276&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002886 (2016) <span style="color: black;">Neural mechanisms of reward processing and emotion</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Elisabeth Adams Murray, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The amygdala, OFC and MFC contribute to learning, in part, by evaluating feedback. In an effort to extend our understanding of the physiological mechanisms underlying affective processing, we developed an fMRI paradigm to reveal blood-oxygen-level dependent (BOLD) responses to visual images that sig ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96276&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96276</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">48.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96277&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002887 (2016) <span style="color: black;">Neural Substrates of Reward Processing and Emotion</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Elisabeth Adams Murray, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Previous work on this project has shown that value-based decision making requires both the OFC and the amygdala. We have used two kinds of tasks to investigate their mechanisms: (1) standard probabilistic and deterministic 2- and 3-choice visual discrimination learning tasks and (2) tasks that requi ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96277&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96277</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">49.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96280&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002890 (2016) <span style="color: black;">Integrating EEG/MEG and fMRI</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Richard  Coppola, SB, DSc <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our earlier basic studies have shown that MEG recordings during cognitive tasks have the ability to localize brain activity in comparable fashion to functional MRI. In specific, reduction in power in the beta frequency band at the cortex in general agrees with BOLD activation results. However, elect ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96280&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96280</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">50.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96281&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002893 (2016) <span style="color: black;">Learning and plasticity in the human brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Christopher Ian Baker, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The primary goals of this research are i) to establish how learning impacts the structure and function of the brain, and ii) to determine how learning can be modulated by factors such as feedback (positive or negative). Over the past year we have focused equally on both of these goals.
+
+1) Impact  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96281&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96281</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">51.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96283&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002896 (2016) <span style="color: black;">The Neural Basis of Functional MRI Responses</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+David A Leopold, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Functional MRI (fMRI) has had perhaps the strongest influence of any neuroscience method on the public conception of how the brain operates.  For the past decade or longer, colorful maps have adorned science articles in the popular press, raising the public awareness of neuroscientific progress. The ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96283&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96283</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">52.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96284&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002897 (2016) <span style="color: black;">Molecular and Cellular Mechanisms of Experience-Dependent Cortical Processing</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Kuan Hong Wang, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our brain can be considered as a type of information processing system like a computer, where input signals need to be first detected and properly represented, then integrated for decision-making and output control.  A unique feature of the brain as an information processing system lies in its adapt ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96284&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96284</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">53.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96285&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002898 (2016) <span style="color: black;">Social Processing and Neural Plasticity</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+David A Leopold, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our social world is comprised of complex stimuli, relationships, rules, and emotions.  Thus the social circuitry in the primate brain is a widespread set of regions that touches on each of these operations.  Some of these subregions appear highly specialized, such as the multiple cortical areas in h ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96285&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96285</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">54.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96289&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002909 (2016) <span style="color: black;">Object, face,  body and scene representations in the human brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Christopher Ian Baker, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The goal of this research is to understand how we see what we see: how does the brain analyze the light falling on the retina of the eye to encode a world full of objects, people and things? 
+
+During the past year we have focused on the perception of complex visual stimuli, in particular real-worl ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96289&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96289</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">55.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96292&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002914 (2016) <span style="color: black;">Treatment of Medical Conditions among Individuals with Autism Spectrum Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Susan Elizabeth Swedo, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Autism spectrum disorder (ASD) is defined by deficits of social communication and the presence of restrictive and/or repetitive behaviors. Recent epidemiologic studies have documented an increase in the number of children identified with autistic symptoms, with some reports suggesting that as many a ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96292&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96292</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">56.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96294&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002917 (2016) <span style="color: black;">Office of the Scientific Director</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Susan G Amara, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The NIMH Division of Intramural Research Programs' (IRP) scientists conduct research ranging from studies into the mechanisms of normal brain function at the behavioral, systems, cellular, and molecular levels, to clinical investigations into the diagnosis, treatment and prevention of mental illness ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96294&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96294</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">57.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96295&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002918 (2016) <span style="color: black;">Functional Anatomy of Face Processing in the Primate Brain</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Leslie G Ungerleider, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Lesions of inferior temporal (IT) cortex in humans can result in the syndrome termed prosopagnosia, an inability to recognize familiar faces. Single-cell recordings from IT cortex of monkeys have revealed the existence of neurons that are selectively activated by visual images of faces. Additionally ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96295&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96295</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">58.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96296&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002920 (2016) <span style="color: black;">The Cognitive Neuroscience of Autism Spectrum Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Alex  Martin, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This past year we have continued to evaluate the neural characteristics, and associated behavioral consequences, of Autism Spectrum Disorders (ASD). 
+
+Prevailing theories suggest that ASD results from impaired brain communication due to aberrant timing or coordination of neuronal firing patterns ( ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96296&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96296</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">59.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96297&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002922 (2016) <span style="color: black;">Psychiatry Consultation Liaison Service Research</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Maryland  Pao, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The three areas of OCD research are:
+
+Suicide Risk in the Medical Setting
+Suicide is an international public health threat. In the U.S., it is the 2nd leading cause of death for youth and the 10th leading cause of death for adults. As suicide risk screening becomes a national priority for medical ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96297&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96297</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">60.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96300&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002927 (2016) <span style="color: black;">Neurobiology and Target Validation of Novel Therapeutic Agents in Mood Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Carlos Alberto Zarate, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This Report involves work collected under protocols 01-M-0254 (NCT00024635 ); 08-M-0196 (NCT00759395); 08-M-0150 (NCT00697268); 14-M-0085 (NCT02122562); 07-M-0021 (NCT00397111); 14-M-0041 (NCT02049385); and 07-M-0152 (NCT00472576), 09-M-N230; 15-M-0151 (NCT 02484456), 15-M-0188 (NCT02543983).
+
+Res ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96300&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96300</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">61.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96301&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002928 (2016) <span style="color: black;">Frontal Striatal Systems and Dopamine in Normal and Pathological Behavior</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Bruno B Averbeck <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our lab uses a combination of neurophysiology, pharmacology and functional imaging to examine the role of frontal striatal systems in behavior. Several of our experiments are motivated by studies in patient groups that show that patients have deficits on particular tasks. We then study those tasks i ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96301&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96301</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">62.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96302&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002929 (2016) <span style="color: black;">Developing New Statisical Methods to Detect Common and Rare Variants Involved in Neuropsychiatric Disorders</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Yin Yao Shugart, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our goal is to develop new analytic tools that can be used to identify genetic variation more efficiently and accurately than the existing methods and then test them in the datasets of psychiatric disorders or other complex human diseases. We have been actively working with both intramural and extra ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96302&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96302</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">63.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96303&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002930 (2016) <span style="color: black;">Developing Statistics Methods to Detect Common and Rare Genetics Variants in Human Complex Pedigrees</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Yin Yao Shugart, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Unlike whole genome-wide association studies (GWAS) which can only discover variations in DNA that are frequent in the populations (greater than 1%), both exome sequencing and whole-genome sequencing may have the advantage of testing comprehensively the role of coding variation, both common and rare ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96303&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96303</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">64.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96306&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002933 (2016) <span style="color: black;">Endocrine and Neurobiologic Events Accompanying Puberty</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Peter J Schmidt, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This report includes work arising from the following clinical protocol: NCT01434368.
+Recruitment efforts for this longitudinal study continue and we have completed approximately 90% of our planned enrollment of for our first cohort of 12-13 year old children and approximately 60% of our planned enr ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96306&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96306</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">65.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96222&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002934 (2016) <span style="color: black;">Integrating fMRI and Next-Generation-Sequencing Data to Identify Schizophrenia Biomarkers</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Yin Yao Shugart, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Summary 
+
+Using the sparse representation based variable selection (SRVS) based integrated analysis of gene expression and SNP data sets, we hope to identify a set of potential genomics markers for schizophrenia. Our initial analysis provided encouraging results. Therefore, we are seeking more sam ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96222&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96222</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">66.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96307&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002935 (2016) <span style="color: black;">Mathematical and Statistical Analysis Techniques for in Vivo Imaging Studies</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Carolyn E Beebe, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+In the current year we have refined our data analysis methods for estimation of rates of cerebral protein synthesis (rCPS) with L-1-C-11leucine and PET. Because rCPS tends to change only modestly under different physiological conditions, it is essential that the analyses achieve the highest possible ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96307&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96307</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">67.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96308&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002936 (2016) <span style="color: black;">Cerebral Protein Synthesis During Sleep and Memory Consolidation</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Carolyn E Beebe, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The protocol involved in this project is 09-M-0123, NCT00884702.
+
+
+During the FY 2016 funding period, we addressed the following:
+
+
+In collaboration with our colleagues from the Walter Reed Army Institute of Research (T Balkin) and NINDS (D. Picchioni), we use the L-1-C-11leucine PET method to ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96308&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96308</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">68.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96310&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002942 (2016) <span style="color: black;">Multimodal Imaging: Genetic and Environmental Effects in Neuropsychiatry</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Karen F Berman, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+In order to better understand how schizophrenia risk genetics operate at the cognitive and neural systems level, our recent work under this project has focused on (1) identifying novel phenotypes that distinguish both people with schizophrenia and unaffected family members from unrelated healthy ind ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96310&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96310</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">69.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96311&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002946 (2016) <span style="color: black;">Structure, Function and Pharmacology of Neurotransmitter Reuptake Systems</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Susan G Amara, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Our laboratory has shown that amphetamines trigger the internalization of the dopamine transporter (DAT) by a series of intracellular events that are distinct from the generally established actions of amphetamines to inhibit dopamine (DA) uptake or to increase DA efflux. We have found that when appl ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96311&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96311</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">70.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96313&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002948 (2016) <span style="color: black;">Cerebral Protein Synthesis as a Measure of Degenerative Changes in a Transgenic Rat Model of Alzheimer's Disease</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Carolyn E Beebe, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+During the 2016 funding period, we carried out studies to measure rCPS with the autoradiographic L-1-C-14leucine method in cohorts of WT and TgF344-AD at six, 14, and 18 months of age.  In these animals we also measured activity by means of open field behavior, memory by means of the T-maze, olfacti ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96313&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96313</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">71.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96696&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002949 (2016) <span style="color: black;">Developmental Neurogenomics Unit</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Armin  Raznahan <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This work is conducted under protocol 89-M-0006 (NCT00001246).
+
+The Developmental Neurogenomics Unit (DNU) was established in October 2015, and work during the past year was focused on completion of basic infrastructural tasks including physical relocation and furnishing of the laboratory, recruit ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96696&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96696</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">72.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96778&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002950 (2016) <span style="color: black;">Dissecting the stress circuits of the paraventricular nucleus of the thalamus</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Mario Alexander Penzo <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+This fiscal year we successfully launched our research program aimed at studying the role of the PVT in stress processing and the control of stress susceptibility. This included designing and setting up laboratory equipment, hiring and training laboratory staff, and conducting pilot studies. To begi ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96778&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96778</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">73.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96796&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002951 (2016) <span style="color: black;">Neural Circuits underlying the control of Executive and Emotional Behavior</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Yogita  Chudasama, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Broadly speaking, much of our work has been directed toward understanding prefrontal deficits. In humans, executive function is known to rely on an intact prefrontal cortex, with famous patients such as Phineas Gage illustrating the range of inhibitory control, decision-making, and socioemotional de ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96796&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96796</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">74.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96917&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002953 (2016) <span style="color: black;">Population-Based Epidemiologic Research</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Kathleen R Merikangas, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+During the past year we have conducted a number of studies addressing the aims above. 
+
+Although the NCS-A survey was conducted 10 years ago, it remains the richest source of data on DSM mental disorders and risk factors in a nationally-representative sample of U.S. adolescents. During the past ye ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96917&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96917</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">75.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96916&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002954 (2016) <span style="color: black;">Motor Activity Research Consortium for Health (mMarch)</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Kathleen R Merikangas, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+There is growing interest in studying the environmental, biologic and genetic correlates of the components of motor activity as well as the relationships between motor activity with sleep, exercise, mood, and cognitive functioning. Aggregation of the findings across these studies is complicated by t ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96916&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96916</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">76.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=97016&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002955 (2016) <span style="color: black;">Non-invasive Neuromodulation Unit (NNU)</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Sarah Hollingsworth Lisanby <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Newly opened this year, major accomplishments for the NNU were the recruitment of staff, installation and testing of neuromodulation equipment, training of staff, writing of software to implement experiments and collect and process data, and protocol development.  We now have a fully functional noni ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=97016&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=97016</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">77.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=97256&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002956 (2016) <span style="color: black;">Patterns of neuronal activity underlying behavioral decisions</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Mark H Histed, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+To understand how neuronal activity patterns give rise to behavior, we have adopted a new technology that extends a two-photon microscope to stimulate both single neurons and patterns of individual neurons.  This approach opens the door to studying how animals' choices depend on patterns of neuronal ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=97256&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=97256</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Scientific Core<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96275&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002884 (2016) <span style="color: black;">Functional MRI Core Facility</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Peter A Bandettini, BS, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Protocol number 93-M-0170, NCT00001360
+
+Space Utilization:
+
+The Functional MRI Facility (FMRIF) currently occupies approximately 4800 sq. ft of space, divided between the scanner bays, control rooms and electronics/machine rooms for 3TA, 3TB, 3TC, 3TD, and 7T MRI scanners located within the NMR  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96275&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96275</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">2.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96278&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002888 (2016) <span style="color: black;">Scientific and Statistical Computing Core</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Robert  Cox, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The principal mission of the Core is to help NIH researchers with analyses of their fMRI (brain activation mapping) data. Along the way, we also help non-NIH investigators, mostly in the USA but also some abroad. Several levels of help are provided, from short-term immediate aid to long-term develop ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96278&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96278</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">3.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96279&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002889 (2016) <span style="color: black;">NIMH MEG Core Facility</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Richard  Coppola, SB, DSc <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The MEG Core staff works interactively with a large group of PI's in NIMH, NINDS and NIDCD for study design, task development, acquisition protocols, signal processing and data analysis. Procedures for data security, transfer and storage have been improved by moving the main data archive to the Heli ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96279&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96279</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">4.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96282&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002894 (2016) <span style="color: black;">Magnetic Resonance Spectroscopy Core Facility</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Jun  Shen, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+As a noninvasive method for measuring concentration and distribution of chemicals in the living brain MRS is an important tool for studying brain function and disorders. However, robust measurement of MRS signals requires highly sophisticated design, implementation and maintenance of various MRS tec ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96282&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96282</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">5.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96286&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002899 (2016) <span style="color: black;">Neurophysiology Imaging Facility Core:  Functional and Structural MRI</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+David A Leopold, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Research in nonhuman primates (NHP) is technically demanding. While many NHP researchers would, in principle, like to incorporate magnetic resonance imaging into their testing, it is often challenging or impossible given constraints on scanner availability and methodological hurdles.   The NIF facil ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96286&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96286</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">6.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96287&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002901 (2016) <span style="color: black;">Transgenic Resources for Neuroscience Research</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+James M Pickel, AB, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The NIMH transgenic core facility has several major functions: 1) to produce transgenic research animals for neuroscience research, 2) to support research with associated techniques in genetic research in neuroscience, 3) to develop new transgenic techniques and model systems and 4) to engage in col ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96287&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96287</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">7.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96288&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002903 (2016) <span style="color: black;">Procurement and Characterization of Postmortem Brain Tissue</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Barbara K Lipska, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Currently, the HBCC resources include brains from individuals with the following diagnoses (numbers of subjects listed in parentheses): Bipolar disorder (135), Non-psychiatric controls (311), Schizophrenia and schizoaffective disorder (193), Substance Abuse (23), Major depressive disorder (217), Oth ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96288&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96288</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">8.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96290&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002911 (2016) <span style="color: black;">NIMH Instrumentation Core Facility</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+George Raphael Dold, MME, BSEE <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Summary: This past year, our Section had the unique opportunity to support the research from various Labs &amp; Sections within NIMH, NINDS, NICHD, and NCCIH.  During the past twelve months, investigators from these labs and branches requested 499 formal projects from our staff. Each of these requests w ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96290&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96290</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">9.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96797&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002952 (2016) <span style="color: black;">Rodent Behavioral Core: The Analysis of Behavior</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Yogita  Chudasama, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Behavioral neuroscience links systems-level circuitry to behavior, cognition and emotion, and is thus critical for understanding the afflictions that affect neuropsychiatric patients. Linking cognitive changes in a behaving rat or mouse to targeted manipulations of neural circuitry requires the conv ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96797&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96797</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Clinical Support Services<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96291&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002912 (2016) <span style="color: black;">Office of the Clinical Director</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Maryland  Pao, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+CLINICAL RESEARCH SUPPORT SERVICES: An important mission of the OCD is to ensure that subjects participating in NIMH protocols receive the highest quality clinical care. The OCD is responsible for oversight of all clinical aspects of the NIMH IRP including: 1) Risk Management/Patient Safety of the o ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96291&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96291</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Clinical Training<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96309&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002939 (2016) <span style="color: black;">Office of the Clinical Director-Psychiatry Clinical Research Training</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Maryland  Pao, MD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+Clinical Fellowship Programs: 
+During FY16, there were eleven NIMH IRP residents/fellows. The academic year generally starts in July so this number includes new, current and departing trainees in our programs. Of the eleven trainees, four were in our PGY-4 ACGME accredited psychiatry residency prog ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96309&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96309</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Animal Research Infrastructure<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96298&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002924 (2016) <span style="color: black;">Veterinary Medicine Research Branch</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+James  Raber, DVM, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The NIMH Veterinary Medicine Research Branch (VMRB) has successfully provided veterinary medical, husbandry and research support to over twenty-six (26) principal investigators in the NIMH IRP with over fifty-four (54) active animal study protocols. In addition, the Branch has provided training and  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96298&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96298</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">New Space Activation &amp; Commissioning<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96312&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002947 (2016) <span style="color: black;">NIMH Space Activation and Commissioning</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Susan G Amara, PhD <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+NIMH intramural scientists conduct research ranging from studies into the mechanisms of normal brain function at the behavioral, systems, cellular, and molecular levels, to clinical investigations into the diagnosis, treatment and prevention of mental illness. Researchers study conditions in adults  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96312&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96312</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Education and Outreach<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96293&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002916 (2016) <span style="color: black;">Office of Fellowship Training</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Janet Elizabeth Clark <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+In fiscal year 2016 (FY16) OFT administered several ongoing educational events and programs for the IRP and established new training opportunities. The OFT processed personnel cases for approximately 320 fellows and 160 Special Volunteers and Collaborators. In support of the newly implemented Staff  ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96293&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96293</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+
+
+
+
+
+
+
+
+
+<div style="font-weight: bold; font-size: 1.1em; padding: 0.5em 0.5em 1em 0.5em;">Technology Transfer<hr></div>
+	
+		
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="float: left; width: 2em;">1.</div>
+<div style="float: left; width:0.5em;">&nbsp;</div>
+
+<div class="summary"><a href="https://intramural.nih.gov/search/searchview.taf?ipid=96299&amp;ts=1552488807" target="_blank" style="font-weight: bold; color: #69C; text-decoration: none;">MH002925 (2016) <span style="color: black;">Office of Technology Transfer</span></a>
+
+
+
+
+
+<!-- leads in report -->
+
+<hr>
+
+<div style="1em 0px 1em 0px; font-weight: bold;">
+Jennifer S Wong <!-- ends thisreport rows -->
+
+</div>
+<!-- report preview -->
+
+The Office of Technology Transfer Office (OTT) negotiates Material Transfer Agreements, Cooperative Research Development Agreements, Licenses, Collaboration Agreements, Confidential Disclosure Agreements, and Clinical Trial Agreements. We also provide guidance and assistance to NIMH researchers, eva ...
+
+<div style="margin: 0.5em 0px 1.5em 0px;">
+
+<a href="https://intramural.nih.gov/search/searchview.taf?ipid=96299&amp;ts=1552488807" target="_blank" style="color: #69C; text-decoration: none;">https://intramural.nih.gov/search/searchview.taf?ipid=96299</a>
+
+
+</div> <!-- ends div for http link -->
+</div> <!-- ends summary div -->
+<div class="clearfix"></div>
+
+
+
+
+
+ <!-- ends list rows -->
+	
+</div> <!-- ends padding div -->
+<div class="clearfix"></div>
+
+</div> <!-- end fullwidthWrapper for allreports -->
+<div class="fullwidthWrapperShadow"></div>
+
+
+
+</div>
+        <div class="fullwidthWrapperShadow"></div>
+        <!-- end Full Width Box -->
+
+
+    <!-- begin Footer -->
+    <div class="footerWrapper">
+    	<ul>	
+
+    	<li><a href="https://intramural.nih.gov/search/index.taf">NIDB Searches</a></li>
+
+        	<li><a href="https://intramural.nih.gov/">NIDB Home</a></li>
+            <li class="last"><a href="https://www.nih.gov/about/privacy.htm" target="_blank">Privacy Notice</a></li>
+         </ul>
+         <ul>
+			<li><a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a></li>
+           	<li><a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a></li>
+           	<li class="last"><a href="https://www.usa.gov/" target="_blank">USA.gov - Government Made Easy</a></li>
+         </ul>
+    </div>
+    <!-- end Footer -->
+</div>
+<!-- End Main Wrapper -->
+
+
+
+
+</div></body></html>

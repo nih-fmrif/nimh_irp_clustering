@@ -1,0 +1,330 @@
+@media screen and (max-width: 800px) {
+body {
+	background: #FFF;
+	font: normal .87em;
+}
+#mainWrapper {
+	height:auto;
+	margin:0 auto;
+	margin-top:28px;
+	padding:0;
+	width:auto;
+}
+.logoWrapper {
+	background: url(../images/top_banner_bkgd_tablet.jpg) left top no-repeat;
+	height:101px;
+	width:auto;
+}
+.logoWrapper h1 {
+	background: url(../images/logo_nidb.png);
+	float:left;
+	height:57px;
+	padding:0;
+	margin:20px 0 0 17px;
+	width:384px;
+}
+.logoWrapper .utilityLinks {
+	color:#FFF;
+	font: normal;
+	float:right;
+	padding:0;
+	margin:0;
+}
+.logoWrapper .utilityLinks ul {
+	font: normal .9em;
+	padding:0;
+	margin:15px 9px 0 10px;
+}
+.contentWrapper {
+	background: #fff url(../images/content_wrapper_bkgd.jpg) center bottom no-repeat;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	margin:0;
+	padding:0;
+	width:auto;
+}
+.breadcrumbWrapper {
+	border-bottom:1px solid #69C;
+	color:#69C;
+	margin:0 auto;
+	padding:7px 0 5px 0;
+	width:auto;
+}
+.headerWrapper {
+	color:#69C;
+	margin:0 auto;
+	padding:9px 0 9px 0;
+	width:auto;
+}
+.fullwidthWrapper {
+	width:auto;
+}
+.fullwidthWrapper h3 {
+	background:#E0E0E0;
+	color:#444;
+	font: normal 1.1em;
+	margin:0 auto;
+	padding:7px;
+	width:auto;
+}
+.fullwidthWrapper .search-steptwo {
+	background: url(../images/search_step2.gif) left top no-repeat;
+	float:left;
+	margin:0 0 20px 7px;
+	padding:7px 0 0 35px;
+	width:auto;
+}
+.fullwidthWrapper .search-steptwo select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#444;
+		line-height: 1;
+		margin:4px 0 10px 0;
+		padding: 1px;
+	}
+.fullwidthWrapper .search-stepthree {
+	float:left;
+	margin-left:20px;
+	padding:7px 0 0 0px;
+	width:auto;
+}
+.fullwidthWrapper .searchResults .previousNext {
+	color:#69C;
+	float:right;
+	margin:6px 0 0 0;
+}
+.fullwidthWrapperShadow {
+	background: url(../images/fullwidthWrapperShadow.png);
+	height:14px;
+	margin:0 auto;
+	width:auto;
+}
+.footerWrapper {
+	background:#EEE;
+	height:120px;
+	padding-top:2px;
+	text-align: center;
+	width:auto;
+}
+}
+@media screen and (max-width: 600px) {
+body {
+	background: #FFF;
+	font: normal .87em "Open Sans", Arial, Helvetica, sans-serif;
+}
+#mainWrapper {
+	height:auto;
+	margin:0 auto;
+	margin-top:10px;
+	padding:0;
+	width:auto;
+}
+.logoWrapper {
+	background: url(../images/top_banner_bkgd_mobile.jpg) center top no-repeat;
+	height:94px;
+	width:auto;
+}
+.logoWrapper h1 {
+	background: url(../images/logo_nidb_mobile.png) left top no-repeat;
+	float:left;
+	height:35px;
+	padding:0;
+	margin:10px 0 0 12px;
+	width:228px;
+}
+.logoWrapper .utilityLinks {
+	color:#FFF;
+	font: normal;
+	float:right;
+	padding:0;
+	margin:0;
+}
+.logoWrapper .utilityLinks ul {
+	font: normal .9em;
+	float:right;
+	padding:0;
+	margin:18px 0 0 14px;
+}
+.contentWrapper {
+	background: #fff url(../images/content_wrapper_bkgd.jpg) center bottom no-repeat;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	margin:0;
+	padding:0;
+	width:auto;
+}
+.breadcrumbWrapper {
+	border-bottom:1px solid #69C;
+	color:#69C;
+	margin:0 auto;
+	padding:7px 0 5px 0;
+	width:auto;
+}
+.headerWrapper {
+	color:#69C;
+	margin:0 auto;
+	padding:9px 0 9px 0;
+	width:auto;
+}
+.fullwidthWrapper {
+	width:auto;
+}
+.fullwidthWrapper h3 {
+	background:#E0E0E0;
+	color:#444;
+	font: normal 1.1em;
+	margin:0 auto;
+	padding:7px;
+	width:auto;
+}
+.fullwidthWrapper .search-steptwo {
+	background: url(../images/search_step2.gif) left top no-repeat;
+	float:left;
+	margin:0 0 20px 7px;
+	padding:7px 0 0 35px;
+	width:auto;
+}
+.fullwidthWrapper .search-steptwo select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#444;
+		line-height: 1;
+		margin:4px 0 10px 0;
+		padding: 1px;
+	}
+.fullwidthWrapper .search-stepthree {
+	float:left;
+	margin-left:20px;
+	padding:7px 0 0 0px;
+	width:auto;
+}
+.fullwidthWrapper .searchResults .previousNext {
+	color:#69C;
+	float:right;
+	margin:6px 0 0 0;
+}
+.fullwidthWrapperShadow {
+	background: url(../images/fullwidthWrapperShadow.png);
+	height:14px;
+	margin:0 auto;
+	width:auto;
+}
+.footerWrapper {
+	background:#EEE;
+	height:120px;
+	padding-top:2px;
+	text-align: center;
+	width:auto;
+}
+}
+@media screen and (max-width: 400px) {
+body {
+	background: #FFF;
+	font: normal;
+}
+#mainWrapper {
+	height:auto;
+	margin:0 auto;
+	margin-top:10px;
+	padding:0;
+	width:auto;
+}
+.logoWrapper {
+	background: url(../images/top_banner_bkgd_mobile.jpg) center top no-repeat;
+	height:94px;
+	width:auto;
+}
+.logoWrapper h1 {
+	background: url(../images/logo_nidb_mobile.png) left top no-repeat;
+	float:left;
+	height:35px;
+	padding:0;
+	margin:10px 0 0 12px;
+	width:228px;
+}
+.logoWrapper .utilityLinks {
+	color:#FFF;
+	font: normal;
+	float:left;
+	padding:0;
+	margin:0;
+}
+.logoWrapper .utilityLinks ul {
+	font: normal .9em;
+	padding:0;
+	margin:10px 0 0 14px;
+}
+.contentWrapper {
+	background: #fff url(../images/content_wrapper_bkgd.jpg) center bottom no-repeat;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	margin:0;
+	padding:0;
+	width:auto;
+}
+.breadcrumbWrapper {
+	border-bottom:1px solid #69C;
+	color:#69C;
+	margin:0 auto;
+	padding:7px 0 5px 0;
+	width:auto;
+}
+.headerWrapper {
+	color:#69C;
+	margin:0 auto;
+	padding:9px 0 9px 0;
+	width:auto;
+}
+.fullwidthWrapper {
+	width:auto;
+}
+.fullwidthWrapper h3 {
+	background:#E0E0E0;
+	color:#444;
+	font: normal 1.1em;
+	margin:0 auto;
+	padding:7px;
+	width:auto;
+}
+.fullwidthWrapper .search-steptwo {
+	background: url(../images/search_step2.gif) left top no-repeat;
+	float:left;
+	margin:0 0 20px 7px;
+	padding:7px 0 0 35px;
+	width:auto;
+}
+.fullwidthWrapper .search-steptwo select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#444;
+		line-height: 1;
+		margin:4px 0 10px 0;
+		padding: 1px;
+		width: 90% !important;
+	}
+.fullwidthWrapper .search-stepthree {
+	float:left;
+	margin-left:20px;
+	padding:7px 0 0 0px;
+	width:auto;
+}
+.fullwidthWrapper .searchResults .previousNext {
+	color:#69C;
+	float:left;
+	margin:6px 0 0 0;
+}
+.fullwidthWrapperShadow {
+	background: url(../images/fullwidthWrapperShadow.png);
+	height:14px;
+	margin:0 auto;
+	width:auto;
+}
+.footerWrapper {
+	background:#EEE;
+	height:120px;
+	padding-top:2px;
+	text-align: center;
+	width:auto;
+}
+
+}

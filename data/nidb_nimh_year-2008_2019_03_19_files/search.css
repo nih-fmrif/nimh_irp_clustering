@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* CSS Document for Search Results */
+
+
+/* begin Search */
+	.fullwidthWrapper .red {
+	color:#F00;
+	font-weight:bold;
+	}
+.fullwidthWrapper .search-stepone {
+	background: url(../images/search_step1.gif) left top no-repeat;
+	float:left;
+	margin:0 0 0 7px;
+	padding:7px 0 0 7px;
+	width:160px;
+}
+	.fullwidthWrapper .search-stepone p {
+	margin:0;
+	padding:0 0 0 27px;
+	}
+	.fullwidthWrapper .search-stepone strong {
+	font: bold 1.1em;
+	color:#444;
+	}
+	.fullwidthWrapper .search-stepone select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#444;
+		line-height: 1;
+		margin:4px 0 10px 0;
+		padding: 1px;
+		width:120px;
+	}
+.fullwidthWrapper .search-steptwo {
+	background: url(../images/search_step2.gif) left top no-repeat;
+	float:left;
+	margin:0 0 20px 0;
+	padding:7px 0 0 35px;
+	width:380px;
+}
+	.fullwidthWrapper .search-steptwo p {
+	margin:0;
+	padding:0;
+	}
+	.fullwidthWrapper .search-steptwo strong {
+	font: bold 1.1em;
+	color:#444;
+	}
+	.fullwidthWrapper .search-steptwo select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#444;
+		line-height: 1;
+		margin: 1em 0 1em 0px;
+		padding: 1px;
+	}
+	.fullwidthWrapper .search-steptwo input {
+		margin:4px 0 0 0;
+	}
+.fullwidthWrapper .search-stepthree {
+	float:left;
+	margin-left:20px;
+	padding:7px 0 0 0px;
+	width:300px;
+}
+	.fullwidthWrapper .search-stepthree p {
+	color:#666;
+	font:normal 1em;
+	margin:0;
+	padding:0 0 7px 0;
+	}
+.fullwidthWrapper .searchbutton {
+	margin:15px 0 0 0;
+}
+.fullwidthWrapper .searchbutton a:link {
+	background: url(../images/btn_blue_bkgd.jpg);
+	border-radius:3px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	color:#FFF;
+	padding:3px 7px 3px 7px;
+	text-decoration: none;
+}
+.fullwidthWrapper .searchbutton a:visited {
+	background: url(../images/btn_blue_bkgd.jpg);
+	border-radius:3px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	color:#FFF;
+	padding:3px 7px 3px 7px;
+	text-decoration: none;
+}
+.fullwidthWrapper .searchbutton a:hover {
+	background: url(../images/btn_blue_bkgd_on.jpg);
+	border-radius:3px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	color:#FFF;
+	text-decoration: none;
+}
+.fullwidthWrapper .searchResults h4 {
+	color:#444;
+	font: normal 1.1em;
+	margin:0;
+	padding:10px 0 10px 10px;
+}
+.fullwidthWrapper .searchResults p {
+	border-top:1px solid #DDD;
+	color:#444;
+	font: normal .95em/1.2em;
+	margin:0 10px 0 10px;
+	padding:10px 0 10px 0;
+}
+.fullwidthWrapper .searchResults .showResults {
+	border-top:1px solid #CCC;
+	color:#444;
+	font: normal .95em;
+	margin:0 10px 0 10px;
+	padding:15px 0 7px 2px;
+}
+.fullwidthWrapper .searchResults .previousNext {
+	color:#69C;
+	float:right;
+	margin:6px 0 0 0;
+}
+	.fullwidthWrapper .searchResults .previousNext a:link {
+		color:#69C;
+		text-decoration:none;
+	}
+	.fullwidthWrapper .searchResults .previousNext a:visited {
+		color:#69C;
+		text-decoration:none;
+	}
+	.fullwidthWrapper .searchResults .previousNext a:hover {
+		color:#69C;
+		text-decoration:underline;
+	}
+.fullwidthWrapper .searchResults .showResults span a:link {
+	color:#69C;
+	text-decoration:none;
+}
+	.fullwidthWrapper .searchResults .showResults select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#444;
+		line-height: 1;
+		margin:4px 0 10px 0;
+		padding: 1px;
+		width:50px;
+	}
+.fullwidthWrapper .searchResults {
+	float:right;
+}
+.fullwidthWrapper .searchResults a:link {
+	color:#69C;
+	text-decoration:none;
+}
+.fullwidthWrapper .searchResults a:visited {
+	color:#369;
+	text-decoration:none;
+}
+.fullwidthWrapper .searchResults a:hover {
+	color:#69C;
+	text-decoration:underline;
+}
+/* end Search */
+
+/* Additions */
+
+.fullwidthWrapper .searchResults .searchbutton {
+background: url(../images/btn_blue_bkgd.jpg);
+border-radius: 5px;
+color:#FFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin:10px 0 0 0;
+padding:3px 0 3px 0;
+text-align:center;
+width:7em; /* Controls the width of the button */
+}
+
+
+.fullwidthWrapper .searchResults .searchbutton a:link {
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+color:#FFF;
+margin:0;
+width: 150px;
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+.fullwidthWrapper .searchResults .searchbutton a:visited {
+color:#FFF;
+text-decoration: none;
+}
+.fullwidthWrapper .searchResults .searchbutton a:hover {
+color:#FFF; /* Controls the hover color */
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+
+
+/*  Changes made by DEG */
+
+.listing_number {
+	float: left; width: 2em;
+	padding: 2px 5px 2px 5px;
+	color: black;
+	text-align: right;
+}
+
+.summary  {
+	float: left;
+	width: 80%;
+}
+
+#back-next  .searchbutton {
+background: url(../images/btn_blue_bkgd.jpg);
+border-radius: 5px;
+color:#FFF;
+font-size: 0.9em;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin:10px 0 0 0;
+padding:3px 0 3px 0;
+text-align:center;
+width: 12em; /* Controls the width of the button */
+}
+#back-next  .searchbutton a:link {
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+color:#FFF;
+margin:0;
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+
+#back-next  .searchbutton a:visited {
+color:#FFF;
+text-decoration: none;
+}
+#back-next  .searchbutton a:hover {
+color:#FFF; /* Controls the hover color 039*/
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+
+#back-next  {
+	text-align: center;
+}
+
+
+#back-next  .searchbutton a:visited {
+color:#FFF;
+text-decoration: none;
+}
+#back-next  .searchbutton a:hover {
+color:#FFF; /* Controls the hover color 039*/
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+
+.greyedout  {
+	color: #CCCCCC;
+}
+
+.fullwidthWrapper .search-steptwo-grey {
+	background: url(../images/search_step2.gif) left top no-repeat;
+	float:left;
+	margin:0 0 20px 0;
+	padding:7px 0 0 35px;
+	width:380px;
+	color: #CCCCCC;
+}
+
+.fullwidthWrapper .search-steptwoBio {
+	/*background: url(../images/search_step2.gif) left top no-repeat;*/
+	float:left;
+	margin:0px;
+	padding:7px 0 0 35px;
+	width:380px;
+
+}
+
+.fullwidthWrapper .search-steptwo-grey p {
+	margin:0;
+	padding:0;
+	}
+
+.fullwidthWrapper .search-steptwo-grey strong {
+	font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+	color:#CCCCCC;
+	}
+
+.fullwidthWrapper .search-steptwo-grey select {
+		background: transparent;
+		border: 1px solid #999;
+		color:#CCCCCC;
+		line-height: 1;
+		margin: 1em 0 1em 0px;
+		padding: 1px;
+		width:380px;
+	}
+
+.fullwidthWrapper .search-steptwo-grey input {
+		margin:4px 0 0 0;
+		color: #CCCCCC;
+}
+
+.fullwidthWrapper .search-stepthree-grey {
+	float:left;
+	margin-left:20px;
+	padding:7px 0 0 0px;
+	width:300px;
+	color: #CCCCCC;
+}
+
+.fullwidthWrapper .search-stepthree-grey p {
+	color:#666;
+	font:normal 11px Verdana, Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0 0 7px 0;
+	color: #CCCCCC;
+}
+
+.fullwidthWrapper .search-stepthree .searchbutton {
+background: url(../images/btn_blue_bkgd.jpg);
+border-radius: 5px;
+color:#FFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin:10px 0 0 0;
+padding:3px 0 3px 0;
+text-align:center;
+width:7em; /* Controls the width of the button */
+}
+
+.fullwidthWrapper .search-steptwo-grey .searchbutton {
+background: url(../images/btn_blue_bkgd.jpg);
+border-radius: 5px;
+color:#FFF;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+margin:10px 0 0 0;
+padding:3px 0 3px 0;
+text-align:center;
+width:7em; /* Controls the width of the button */
+float: right;
+}
+.fullwidthWrapper .search-steptwo-grey .searchbutton a:link {
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+color:#FFF;
+margin:0;
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+.fullwidthWrapper .search-steptwo-grey .searchbutton a:visited {
+color:#FFF;
+text-decoration: none;
+}
+.fullwidthWrapper .search-steptwo-grey .searchbutton a:hover {
+color:#FFF; /* Controls the hover color */
+padding:3px auto;  /* Controls the width of the active link */
+text-decoration: none;
+}
+
+.rightfloat {
+	float: right;
+	margin: 0px 0.5em 0px 0px;
+}
+
+
+
