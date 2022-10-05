@@ -1,0 +1,338 @@
+,pi,ro,collab,institute,scope
+0,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Melissa A Brotman, PhD",Unit on Neuroscience and Novel Therapeutics,NIMH
+1,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Joyce  Chung, MD",Office of the Clinical Director,NIMH
+2,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Robert  Cox, PhD",Scientific and Statistical Computing Core,NIMH
+3,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Emily Suzanne Finn, PhD",Section on Functional Imaging Methods,NIMH
+4,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Michael David Gregory, MD",Clinical and Translational Neuroscience Branch,NIMH
+5,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,NIMH
+6,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,NIMH
+7,"Adam G Thomas, DPhil",Data Science and Sharing Team,"David Coulter Jangraw, PhD",Section on Development and Affective Neuroscience,NIMH
+8,"Adam G Thomas, DPhil",Data Science and Sharing Team,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+9,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Barbara K Lipska, PhD",Human Brain Collection Core,NIMH
+10,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Siyuan  Liu, PhD",Unit on Developmental Neurogenomics,NIMH
+11,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Stefano  Marenco, MD",Human Brain Collection Core,NIMH
+12,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Peter James Molfese, PhD",Section on Functional Imaging Methods,NIMH
+13,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Dylan M Nielson, PhD",Mood Brain & Development Unit,NIMH
+14,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Allison Carol Nugent, PhD",Magnetoencephalography Core,NIMH
+15,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+16,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,NIMH
+17,"Adam G Thomas, DPhil",Data Science and Sharing Team,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+26,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+27,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+28,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Robert  Cox, PhD",Scientific and Statistical Computing Core,NIMH
+29,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,NIMH
+30,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Peter James Molfese, PhD",Section on Functional Imaging Methods,NIMH
+31,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+32,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+37,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"George Raphael Dold, MS",Section on Instrumentation,NIMH
+38,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+39,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+40,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+41,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Joyce  Chung, MD",Office of the Clinical Director,NIMH
+42,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Robert  Cox, PhD",Scientific and Statistical Computing Core,NIMH
+43,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"George Raphael Dold, MS",Section on Instrumentation,NIMH
+44,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+45,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,NIMH
+46,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+47,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Lindsay Meredith Oberman, PhD",Unit on Non-invasive Neuromodulation,NIMH
+48,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,NIMH
+49,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+50,"Allison Carol Nugent, PhD",Magnetoencephalography Core,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+64,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+65,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+66,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,"Stefano  Marenco, MD",Human Brain Collection Core,NIMH
+67,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+68,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+69,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,"Adam G Thomas, DPhil",Data Science and Sharing Team,NIMH
+90,Ashura  Buckley,Sleep and Neurodevelopment Service,"Cristan Ann Farmer, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+109,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,NIMH
+110,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+111,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,NIMH
+112,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,"Carolyn E Smith, PhD",Section on Neuro-adaptation and Protein Metabolism,NIMH
+148,"Barbara K Lipska, PhD",Human Brain Collection Core,Nirmala  Akula,Section on the Genetic Basis of Mood and Anxiety Disorders,NIMH
+149,"Barbara K Lipska, PhD",Human Brain Collection Core,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+150,"Barbara K Lipska, PhD",Human Brain Collection Core,"Miles  Herkenham, PhD",Section on Functional Neroanatomy,NIMH
+151,"Barbara K Lipska, PhD",Human Brain Collection Core,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,NIMH
+152,"Barbara K Lipska, PhD",Human Brain Collection Core,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,NIMH
+153,"Barbara K Lipska, PhD",Human Brain Collection Core,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+187,"Barry J Richmond, MD",Section on Neural Coding and Computation,"Gang  Chen, PhD",Scientific and Statistical Computing Core,NIMH
+188,"Barry J Richmond, MD",Section on Neural Coding and Computation,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,NIMH
+189,"Barry J Richmond, MD",Section on Neural Coding and Computation,"Victor W Pike, PhD",Section on PET Radiopharmaceutical Sciences,NIMH
+190,"Barry J Richmond, MD",Section on Neural Coding and Computation,"Sanjay  Telu, PhD",Section on PET Radiopharmaceutical Sciences,NIMH
+214,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,"Heather A Cameron, PhD",Section on Neuroplasticity,NIMH
+215,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,NIMH
+216,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,NIMH
+217,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+220,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+221,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Ioline D Henter, MA",Section on PET Neuroimaging Sciences,NIMH
+222,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,NIMH
+223,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+224,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Allison Carol Nugent, PhD",Magnetoencephalography Core,NIMH
+225,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+226,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Dietmar  Plenz, PhD",Section on Critical Brain Dynamics,NIMH
+227,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,NIMH
+228,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,NIMH
+229,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+230,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Allison Carol Nugent, PhD",Magnetoencephalography Core,NIMH
+231,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,NIMH
+261,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,"Lee E Eiden, PhD",Section on Molecular Neuroscience,NIMH
+262,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,NIMH
+263,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,NIMH
+264,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,"Walter Scott Young, MD, PhD, MPH",Section on Neural Gene Expression,NIMH
+276,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+277,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+285,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,NIMH
+286,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+287,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+288,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+289,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,NIMH
+290,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+291,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+304,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,NIMH
+305,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,NIMH
+316,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+317,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+318,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,NIMH
+319,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,NIMH
+342,"Dietmar  Plenz, PhD",Section on Critical Brain Dynamics,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,NIMH
+343,"Dietmar  Plenz, PhD",Section on Critical Brain Dynamics,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,NIMH
+356,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+357,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,Cibu Paul Thomas,Section on Learning and Plasticity,NIMH
+358,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,"Andrew Rattin Mitz, PhD",Section on Neurobiology of Learning and Memory,NIMH
+359,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+360,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,"Richard C Saunders, PhD",Section on Learning and Decision Making,NIMH
+366,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+367,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+368,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+369,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+379,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+380,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,"Melissa A Brotman, PhD",Unit on Neuroscience and Novel Therapeutics,NIMH
+381,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+382,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+383,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,NIMH
+396,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Pavan Kumar Auluck, MD, PhD",Human Brain Collection Core,NIMH
+397,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Barbara K Lipska, PhD",Human Brain Collection Core,NIMH
+398,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Stefano  Marenco, MD",Human Brain Collection Core,NIMH
+399,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Joyce  Chung, MD",Office of the Clinical Director,NIMH
+400,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+401,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+402,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,Mani  Yavi,Section on Neurobiology and Treatment of Mood Disorders,NIMH
+403,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+421,"Francisco  Pereira, PhD",Machine Learning Team,"Adam G Thomas, DPhil",Data Science and Sharing Team,NIMH
+422,"Francisco  Pereira, PhD",Machine Learning Team,"Dylan M Nielson, PhD",Mood Brain & Development Unit,NIMH
+423,"Francisco  Pereira, PhD",Machine Learning Team,"John Gavin Rodgers-Lee, PhD",Scientific and Statistical Computing Core,NIMH
+424,"Francisco  Pereira, PhD",Machine Learning Team,Martin Nikolai Hebart,Section on Learning and Plasticity,NIMH
+425,"Francisco  Pereira, PhD",Machine Learning Team,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+426,"Francisco  Pereira, PhD",Machine Learning Team,"Emily Suzanne Finn, PhD",Section on Functional Imaging Methods,NIMH
+427,"Francisco  Pereira, PhD",Machine Learning Team,"Javier  Gonzalez-Castillo, PhD",Section on Functional Imaging Methods,NIMH
+428,"Francisco  Pereira, PhD",Machine Learning Team,"Ana Rita Lourenco Inacio, PhD",Unit on Functional Neural Circuits,NIMH
+429,"Francisco  Pereira, PhD",Machine Learning Team,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,NIMH
+430,"Francisco  Pereira, PhD",Machine Learning Team,Michal  Ramot,Section on Cognitive Neuropsychology,NIMH
+447,"George Raphael Dold, MS",Section on Instrumentation,"Arash  Afraz, PhD, MD","Unit on Neurons, Circuits and Behavior",NIMH
+448,"George Raphael Dold, MS",Section on Instrumentation,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+449,"George Raphael Dold, MS",Section on Instrumentation,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+450,"George Raphael Dold, MS",Section on Instrumentation,"Heather A Cameron, PhD",Section on Neuroplasticity,NIMH
+451,"George Raphael Dold, MS",Section on Instrumentation,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+452,"George Raphael Dold, MS",Section on Instrumentation,Ellen  Condon,Functional MRI Core,NIMH
+453,"George Raphael Dold, MS",Section on Instrumentation,"Zhi-De  Deng, PhD",Unit on Non-invasive Neuromodulation,NIMH
+454,"George Raphael Dold, MS",Section on Instrumentation,"Mark Eldridge, PhD",Section on Neural Coding and Computation,NIMH
+455,"George Raphael Dold, MS",Section on Instrumentation,Amicia Devin Elliott,Section on Neural Function,NIMH
+456,"George Raphael Dold, MS",Section on Instrumentation,Rossella  Falcone,Section on Neural Coding and Computation,NIMH
+457,"George Raphael Dold, MS",Section on Instrumentation,"Jinsoo  Hong, MS, PhD",Section on PET Radiopharmaceutical Sciences,NIMH
+459,"George Raphael Dold, MS",Section on Instrumentation,Camilla Rose-Marie Karlsson,Section on Neuroplasticity,NIMH
+460,"George Raphael Dold, MS",Section on Instrumentation,Kenji  Koyano,Section on Cognitive Neurophysiology and Imaging,NIMH
+461,"George Raphael Dold, MS",Section on Instrumentation,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,NIMH
+462,"George Raphael Dold, MS",Section on Instrumentation,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+463,"George Raphael Dold, MS",Section on Instrumentation,"Shizhe Steve Li, PhD",Magnetic Resonance Core,NIMH
+464,"George Raphael Dold, MS",Section on Instrumentation,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,NIMH
+465,"George Raphael Dold, MS",Section on Instrumentation,"Andrew Rattin Mitz, PhD",Section on Neurobiology of Learning and Memory,NIMH
+466,"George Raphael Dold, MS",Section on Instrumentation,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,NIMH
+467,"George Raphael Dold, MS",Section on Instrumentation,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,NIMH
+468,"George Raphael Dold, MS",Section on Instrumentation,"James M Pickel, PhD, AB",Transgenic Core,NIMH
+469,"George Raphael Dold, MS",Section on Instrumentation,"Victor W Pike, PhD",Section on PET Radiopharmaceutical Sciences,NIMH
+470,"George Raphael Dold, MS",Section on Instrumentation,"Dietmar  Plenz, PhD",Section on Critical Brain Dynamics,NIMH
+471,"George Raphael Dold, MS",Section on Instrumentation,"Jia  Qi, PhD",Unit on Functional Neural Circuits,NIMH
+472,"George Raphael Dold, MS",Section on Instrumentation,"Barry J Richmond, MD",Section on Neural Coding and Computation,NIMH
+473,"George Raphael Dold, MS",Section on Instrumentation,"Vinai  Roopchansingh, PhD",Functional MRI Core,NIMH
+474,"George Raphael Dold, MS",Section on Instrumentation,"Richard C Saunders, PhD",Section on Learning and Decision Making,NIMH
+475,"George Raphael Dold, MS",Section on Instrumentation,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+476,"George Raphael Dold, MS",Section on Instrumentation,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,NIMH
+477,"George Raphael Dold, MS",Section on Instrumentation,"Benjamin H White, PhD",Section on Neural Function,NIMH
+478,"George Raphael Dold, MS",Section on Instrumentation,Ma  Xiaoyu,Clinical and Translational Neuroscience Branch,NIMH
+479,"George Raphael Dold, MS",Section on Instrumentation,"Walter Scott Young, MD, PhD, MPH",Section on Neural Gene Expression,NIMH
+508,"Heather A Cameron, PhD",Section on Neuroplasticity,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+509,"Heather A Cameron, PhD",Section on Neuroplasticity,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,NIMH
+510,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+511,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+512,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,NIMH
+517,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Arash  Afraz, PhD, MD","Unit on Neurons, Circuits and Behavior",NIMH
+518,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+519,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Heather A Cameron, PhD",Section on Neuroplasticity,NIMH
+520,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+521,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Lee E Eiden, PhD",Section on Molecular Neuroscience,NIMH
+522,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+523,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+524,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Miles  Herkenham, PhD",Section on Functional Neroanatomy,NIMH
+525,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,NIMH
+526,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,NIMH
+527,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,NIMH
+528,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+529,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Zheng  Li, PhD",Section on Synapse Development Plasticity,NIMH
+530,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Elisabeth Adams Murray, PhD",Section on Neurobiology of Learning and Memory,NIMH
+531,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,NIMH
+532,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"James M Pickel, PhD, AB",Transgenic Core,NIMH
+533,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Dietmar  Plenz, PhD",Section on Critical Brain Dynamics,NIMH
+534,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Barry J Richmond, MD",Section on Neural Coding and Computation,NIMH
+535,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Jun  Shen, PhD",Molecular Imaging Branch,NIMH
+536,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Carolyn E Smith, PhD",Section on Neuro-adaptation and Protein Metabolism,NIMH
+537,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+538,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+539,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,NIMH
+540,"James  Raber, DVM, PhD",Veterinary Medicine and Resources Branch,"Walter Scott Young, MD, PhD, MPH",Section on Neural Gene Expression,NIMH
+542,"James M Pickel, PhD, AB",Transgenic Core,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+543,"James M Pickel, PhD, AB",Transgenic Core,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+544,"James M Pickel, PhD, AB",Transgenic Core,"Zheng  Li, PhD",Section on Synapse Development Plasticity,NIMH
+545,"James M Pickel, PhD, AB",Transgenic Core,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+576,"Jun  Shen, PhD",Magnetic Resonance Core,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+577,"Jun  Shen, PhD",Magnetic Resonance Core,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,NIMH
+578,"Jun  Shen, PhD",Magnetic Resonance Core,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,NIMH
+579,"Jun  Shen, PhD",Magnetic Resonance Core,"Lindsay Meredith Oberman, PhD",Unit on Non-invasive Neuromodulation,NIMH
+580,"Jun  Shen, PhD",Magnetic Resonance Core,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+597,"Jun  Shen, PhD",Section on Magnetic Resonance Spectroscopy,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+598,"Jun  Shen, PhD",Section on Magnetic Resonance Spectroscopy,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+604,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Stefano  Marenco, MD",Human Brain Collection Core,NIMH
+605,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+606,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Bhaskar S Kolachana, PhD",Human Brain Collection Core,NIMH
+607,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Stefano  Marenco, MD",Human Brain Collection Core,NIMH
+608,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,Katherine  Reding,Section on Behavioral Endocrinology,NIMH
+609,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,NIMH
+610,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,Shau-Ming  Wei,Section on Behavioral Endocrinology,NIMH
+611,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Bhaskar S Kolachana, PhD",Human Brain Collection Core,NIMH
+612,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Stefano  Marenco, MD",Human Brain Collection Core,NIMH
+613,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Jun  Shen, PhD",Molecular Imaging Branch,NIMH
+614,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,"Johan W Van Der Veen, PhD",Magnetic Resonance Core,NIMH
+618,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Elizabeth Day Ballard, PhD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+619,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+620,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,NIMH
+621,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+623,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Lisa Meryl Horowitz, PhD",Office of the Clinical Director,NIMH
+624,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+625,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+626,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+668,"Lee E Eiden, PhD",Section on Molecular Neuroscience,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+669,"Lee E Eiden, PhD",Section on Molecular Neuroscience,"Zheng  Li, PhD",Section on Synapse Development Plasticity,NIMH
+670,"Lee E Eiden, PhD",Section on Molecular Neuroscience,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,NIMH
+671,"Lee E Eiden, PhD",Section on Molecular Neuroscience,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+681,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+686,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+687,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+688,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+689,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+696,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+697,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,"Charles Yang Zheng, PhD",Section on Functional Imaging Methods,NIMH
+698,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+699,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,"Charles Yang Zheng, PhD",Section on Functional Imaging Methods,NIMH
+700,"Mark H Histed, PhD",Unit on Neural Computation and Behavior,"Dietmar  Plenz, PhD",Section on Critical Brain Dynamics,NIMH
+714,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Elizabeth Day Ballard, PhD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+715,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+716,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Monique  Ernst, MD, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+717,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Jian-Ping  He, MS",Section on Developmental Genetic Epidemiology,NIMH
+718,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Shruti A Japee, BS, MS, PhD",Section on Cognitive Neuropsychology,NIMH
+720,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+721,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Francis Joseph McMahon, MD",Section on the Genetic Basis of Mood and Anxiety Disorders,NIMH
+722,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+723,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Allison Carol Nugent, PhD",Magnetoencephalography Core,NIMH
+726,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,NIMH
+728,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Adam G Thomas, DPhil",Data Science and Sharing Team,NIMH
+729,"Maryland  Pao, BA, MD",Office of the Clinical Director,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+807,"Maryland  Pao, BA, MD",Psychiatry Clinical Research Training,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+808,"Maryland  Pao, BA, MD",Psychiatry Clinical Research Training,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,NIMH
+809,"Maryland  Pao, BA, MD",Psychiatry Clinical Research Training,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,NIMH
+810,"Maryland  Pao, BA, MD",Psychiatry Clinical Research Training,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,NIMH
+811,"Maryland  Pao, BA, MD",Psychiatry Clinical Research Training,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+818,"Miles  Herkenham, PhD",Section on Functional Neroanatomy,"Barbara K Lipska, PhD",Human Brain Collection Core,NIMH
+829,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Bruno B Averbeck, PhD",Section on Learning and Decision Making,NIMH
+830,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+831,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+832,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Robert  Cox, PhD",Scientific and Statistical Computing Core,NIMH
+833,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+834,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,NIMH
+835,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+836,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Elisha Prem Merriam, PhD",Section on Neurocircuitry,NIMH
+837,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+839,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Armin  Raznahan, PhD",Unit on Developmental Neurogenomics,NIMH
+840,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,NIMH
+841,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Jun  Shen, PhD",Molecular Imaging Branch,NIMH
+842,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Argyrios  Stringaris, PhD",Section on Mood Dysregulation and Neuroscience,NIMH
+844,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+845,"Peter A Bandettini, BS, PhD",Functional MRI Core,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+878,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Christopher Ian Baker, PhD",Section on Learning and Plasticity,NIMH
+879,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Robert  Cox, PhD",Scientific and Statistical Computing Core,NIMH
+880,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"John Andrew Derbyshire, PhD",Functional MRI Core,NIMH
+881,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,NIMH
+882,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Linqing Michael Li, PhD",Functional MRI Core,NIMH
+883,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Sean  Marrett, PhD",Functional MRI Core,NIMH
+884,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+885,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+886,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+887,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Vinai  Roopchansingh, PhD",Functional MRI Core,NIMH
+888,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+889,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+901,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+902,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+903,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+927,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+928,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+929,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Monique  Ernst, MD, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+930,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+931,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Ellen  Leibenluft, MD",Section on Mood Dysregulation and Neuroscience,NIMH
+932,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+933,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Alex  Martin, PhD",Section on Cognitive Neuropsychology,NIMH
+934,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Allison Carol Nugent, PhD",Magnetoencephalography Core,NIMH
+935,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Daniel  Pine, MD",Section on Development and Affective Neuroscience,NIMH
+936,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Barry J Richmond, MD",Section on Neural Coding and Computation,NIMH
+937,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,NIMH
+938,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Leslie G Ungerleider, PhD",Section on Neurocircuitry,NIMH
+939,"Robert  Cox, PhD",Scientific and Statistical Computing Core,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+955,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,"Barry J Richmond, MD",Section on Neural Coding and Computation,NIMH
+956,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+957,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+965,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,"Yogita  Chudasama, PhD",Rodent Behavioral Core,NIMH
+966,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+967,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,NIMH
+968,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+985,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+986,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,NIMH
+987,"Soohyun  Lee, PhD",Unit on Functional Neural Circuits,"Francisco  Pereira, PhD",Machine Learning Team,NIMH
+999,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,"Heather A Cameron, PhD",Section on Neuroplasticity,NIMH
+1000,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,"Charles R Gerfen, PhD",Organization of the Cortex and Basal Ganglia,NIMH
+1001,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,"David A Leopold, PhD",Section on Cognitive Neurophysiology and Imaging,NIMH
+1002,"Theodore B Usdin, MD",Systems Neuroscience Imaging Resource,"Walter Scott Young, MD, PhD, MPH",Section on Neural Gene Expression,NIMH
+1007,"Victor W Pike, PhD",Section on PET Radiopharmaceutical Sciences,"George Raphael Dold, MS",Section on Instrumentation,NIMH
+1008,"Victor W Pike, PhD",Section on PET Radiopharmaceutical Sciences,"Robert  Innis, MD",Section on PET Neuroimaging Sciences,NIMH
+1009,"Victor W Pike, PhD",Section on PET Radiopharmaceutical Sciences,"Barry J Richmond, MD",Section on Neural Coding and Computation,NIMH
+1027,"Yogita  Chudasama, PhD",Rodent Behavioral Core,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+1028,"Yogita  Chudasama, PhD",Rodent Behavioral Core,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,NIMH
+1029,"Yogita  Chudasama, PhD",Rodent Behavioral Core,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+1030,"Yogita  Chudasama, PhD",Rodent Behavioral Core,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+1032,"Yogita  Chudasama, PhD",Section on Behavioral Neuroscience,"Karen F Berman, MD",Clinical and Translational Neuroscience Branch,NIMH
+1033,"Yogita  Chudasama, PhD",Section on Behavioral Neuroscience,"Samer Saleh Hattar, PhD",Section on Light and Circadian Rhythms,NIMH
+1034,"Yogita  Chudasama, PhD",Section on Behavioral Neuroscience,"Kathleen R Merikangas, PhD",Section on Developmental Genetic Epidemiology,NIMH
+1035,"Yogita  Chudasama, PhD",Section on Behavioral Neuroscience,"Mario Alexander Penzo, PhD",Unit on the Neurobiology of Affective Memory,NIMH
+1036,"Yogita  Chudasama, PhD",Section on Behavioral Neuroscience,"Peter J Schmidt, MD",Section on Behavioral Endocrinology,NIMH
+1037,"Yogita  Chudasama, PhD",Section on Behavioral Neuroscience,"Hugo Alejandro Tejeda, PhD",Unit of Neuromodulation and Synaptic Integration,NIMH
+1039,"Zheng  Li, PhD",Section on Synapse Development Plasticity,"Lee E Eiden, PhD",Section on Molecular Neuroscience,NIMH
+1045,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Elizabeth Day Ballard, PhD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+1046,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Peter A Bandettini, BS, PhD",Section on Functional Imaging Methods,NIMH
+1047,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"George Raphael Dold, MS",Section on Instrumentation,NIMH
+1048,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Monique  Ernst, MD, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+1049,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Cristan Ann Farmer, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+1050,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Jessica  Gilbert, PhD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+1051,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Christian  Grillon, PhD",Section on Neurobiology of Fear and Anxiety,NIMH
+1052,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,Bashkim  Kadriu,Office of the Clinical Director,NIMH
+1053,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Allison Carol Nugent, PhD",Magnetoencephalography Core,NIMH
+1054,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Lawrence Taeseng Park, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
+1055,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Bruce Allen Pritchard, BSEE",Section on Instrumentation,NIMH
+1056,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Argyrios  Stringaris, PhD",Mood Brain & Development Unit,NIMH
+1057,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Audrey E Thurm, PhD",Neurodevelopmental and Behavioral Phenotyping Service,NIMH
+1058,"sarah Hollingsworth Lisanby, MD",Unit on Non-invasive Neuromodulation,"Carlos Alberto Zarate, MD",Section on Neurobiology and Treatment of Mood Disorders,NIMH
